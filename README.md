@@ -1,3 +1,3 @@
 IntelliJ IDEAにインポートするためのサンプルプロジェクトです
 
-ref: `git@github.com:dwango/scala-sandbox.git`
+ref: [dwango/scala-sandbox](https://github.com/dwango/scala-sandbox)
