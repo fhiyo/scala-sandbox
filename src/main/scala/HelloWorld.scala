@@ -49,6 +49,15 @@ object HelloWorld {
 
     println(cmp.compare("aa", "bb"))
 
+    println(Seq(Some(1), Some(2), None, Some(4)) flatMap { x => x })
+    println(List(1, 2, 4) mkString(","))
+
+    println(Seq(1, 2, 3, 4) flatMap {x => if (x % 2 == 0) Some(x) else None})
+
+    println(Seq(Seq(1, 2, 3), Seq(), Seq(5, 6)) flatMap {x => Some(x.size)})
+
+    println(Seq(Seq(1, 2), Seq(3)) flatMap(identity))
+
   }
 
 }
